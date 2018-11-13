@@ -1,0 +1,69 @@
+html{
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+body{
+	background-color: #455a64;
+}
+
+p{
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#intro{
+	font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 568px) {
+  	ul{
+	margin: 0 auto;
+	width: 80%;
+	}
+}
+
+@media screen and (min-width: 568px) 
+  and (max-width: 1024px) {
+  	ul{
+	margin: 0 auto;
+	width: 20%;
+	}
+}
+
+
+
+ul li{
+	margin: 10px 0;
+	min-width: 200px;
+}
+
+ul li a{
+	display: block;
+	font-weight: bold;
+	padding: 10px 0;
+	border: 2px solid #f44336;
+	text-align: center;
+	transition: all 0.5s ease-in;
+
+}
+
+ul .right a:hover{
+	box-shadow: #f44336 500px 0 0 2px inset;
+	color: #1c313a;
+}
+
+ul .bottom a:hover{
+	box-shadow: #f44336 0 100px 0 2px inset;
+	color: #1c313a;
+}
+
+
+
+
+
+
+
+
