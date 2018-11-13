@@ -1,0 +1,47 @@
+.circle{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: red;
+	border: white 3px solid;
+	margin: 10px 10px;
+}
+
+.circle:hover{
+	transition: all .5s ease-out;
+	transform: scale(1.3) rotate(0.5turn);
+}
+
+#scaleContainer{
+	padding-top: 20px;
+}
+
+#circle1{
+	background: #fceabb;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fceabb, #f8b500);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fceabb, #f8b500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#circle2{
+	background: #ff4b1f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ff4b1f, #ff9068);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ff4b1f, #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#circle3{
+	background: #cb2d3e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #cb2d3e, #ef473a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+	
+#circle4{
+	background: #42275a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #734b6d, #42275a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #734b6d, #42275a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#circle5{
+	background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

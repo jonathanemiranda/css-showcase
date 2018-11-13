@@ -4,17 +4,43 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="boxShadow.css">
+	<link rel="stylesheet" type="text/css" href="scale.css">
 	<title>Jonathan's CSS Showcase</title>
 </head>
 <body>
-	<p id="intro">Thanks for checking out my site. It was designed to demonstrate the cool stuff that can be done with CSS transitions.</p>
-	<div id="boxShadowContainer">
-		<span class="right">
-			<a href="">Hover Here</a>
-		</span>
-		<span class="bottom">
-			<a href="">Hover Here</a>
-		</span>
+	<p id="intro">Thanks for checking out my site. It was designed to demonstrate the cool stuff that can be done with CSS transformations.</p>
+
+	<div class="sectionContainer">
+		<p class="sectionName">Box Shadows
+			<hr>
+		</p>
+		<div class="flexContainer" id="boxShadowContainer">
+			<span class="leftToRight">
+				<a href="">Hover Here</a>
+			</span>
+			<span class="topToBottom">
+				<a href="">Hover Here</a>
+			</span>
+			<span class="rightToLeft">
+				<a href="">Hover Here</a>
+			</span>
+			<span class="bottomToTop">
+				<a href="">Hover Here</a>
+			</span>
+		</div>
 	</div>
+	<div class="sectionContainer">
+		<p class="sectionName">Scale
+			<hr>
+		</p>
+		<div class="flexContainer" id="scaleContainer">
+			<div class="circle" id="circle1"></div>
+			<div class="circle" id="circle2"></div>
+			<div class="circle" id="circle3"></div>
+			<div class="circle" id="circle4"></div>
+			<div class="circle" id="circle5"></div>
+		</div>
+	</div>				
 </body>
 </html>
